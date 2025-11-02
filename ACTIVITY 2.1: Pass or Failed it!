@@ -1,0 +1,14 @@
+import java.util.Scanner;
+
+public class GradeChecker {
+    public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
+        System.out.print("Enter your grade: ");
+        int grade = input.nextInt();
+        if (grade >= 75) {
+            System.out.println("You passed.");
+        } else {
+            System.out.println("You failed.");
+        }
+    }
+}
