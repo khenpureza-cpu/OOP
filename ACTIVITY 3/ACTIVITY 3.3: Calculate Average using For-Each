@@ -1,0 +1,11 @@
+public class AverageValue {
+    public static void main(String[] args) {
+        int[] numbers = {12, 45, 7, 89, 23};
+        int sum = 0;
+        for (int num : numbers) {
+            sum += num;
+        }
+        double average = (double) sum / numbers.length;
+        System.out.println("Average value: " + average);
+    }
+}
