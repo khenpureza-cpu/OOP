@@ -10,6 +10,5 @@ public class OddorEvenNumber {
         } else {
             System.out.println(number + " is Odd.");
         }
-        scanner.close();
     }
 }
