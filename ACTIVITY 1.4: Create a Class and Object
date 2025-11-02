@@ -1,0 +1,18 @@
+class Book {
+    String title;
+    String author;
+    Book(String title, String author) {
+        this.title = title;
+        this.author = author;
+    }
+    void displayInfo() {
+        System.out.println("Book Title: " + title);
+        System.out.println("Author: " + author);
+    }
+}
+public class Main {
+    public static void main(String[] args) {
+        Book myBook = new Book("Ang Mami ng Lahat", "Mami Oni");
+        myBook.displayInfo();
+    }
+}
