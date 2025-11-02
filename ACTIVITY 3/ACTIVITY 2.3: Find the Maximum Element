@@ -1,0 +1,12 @@
+public class HighestValue {
+    public static void main(String[] args) {
+        int[] numbers = {12, 45, 7, 89, 23};
+        int highest = numbers[0];
+        for (int i = 1; i < numbers.length; i++) {
+            if (numbers[i] > highest) {
+                highest = numbers[i];
+            }
+        }
+        System.out.println("Highest value: " + highest);
+    }
+}
