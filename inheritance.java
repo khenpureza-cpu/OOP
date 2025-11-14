@@ -19,7 +19,7 @@ class Car extends Vehicle {
         System.out.println("Type: " + type);
         System.out.println("Color: " + color);
         System.out.println("Year: " + year);
-        System.out.println("Car Max Speed:");
+        System.out.println("Car Max Speed:"+ maxspeed+"km/h");
     }
 }
 
