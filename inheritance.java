@@ -1,3 +1,4 @@
+// Act 5: Inheritance
 class Vehicle {
     String brand;
     String type;
