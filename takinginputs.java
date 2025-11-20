@@ -1,4 +1,4 @@
-# Activity 1: taking inputs
+// Activity 1: taking inputs
 import java.util.Scanner;
 
 public class Activity1 {
